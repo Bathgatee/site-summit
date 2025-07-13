@@ -20,6 +20,17 @@ export default function Platform() {
         </p>
       </section>
 
+      {/* Thumbnails Section */}
+      <section className="bg-white py-10 px-6 text-center">
+        <div className="max-w-4xl mx-auto">
+          <img
+            src="/assets/full-platform-thumbnails.png"
+            alt="Full Platform Features"
+            className="rounded-xl shadow-lg mx-auto"
+          />
+        </div>
+      </section>
+
       {/* Features */}
       <section className="bg-white py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
