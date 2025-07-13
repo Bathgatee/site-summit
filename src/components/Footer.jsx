@@ -5,7 +5,7 @@ export default function Footer() {
         
         <div className="text-center md:text-left">
           <h4 className="font-semibold text-gray-800 mb-2">Site Summit</h4>
-          <p>Climb Higher. Build Better. Web solutions tailored for your growth.</p>
+          <p>🚀 Climb Higher. Build Smarter. (test spelling change)</p>
         </div>
 
         <div className="text-center md:text-left">
