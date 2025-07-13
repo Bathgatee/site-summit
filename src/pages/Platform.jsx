@@ -22,25 +22,25 @@ export default function Platform() {
 
       {/* Features */}
       <section className="bg-white py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Everything You Need to Scale</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
-            <div className="border rounded-xl p-6 shadow hover:shadow-lg transition">
-              <h3 className="text-xl font-semibold mb-2">Stripe Checkout Integration</h3>
-              <p className="text-gray-600">Seamlessly accept payments for products, subscriptions, or services.</p>
-            </div>
-            <div className="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-10">Everything You Need to Scale</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+            <Link to="/features/license-keys" className="border rounded-xl p-6 shadow hover:shadow-lg transition block">
               <h3 className="text-xl font-semibold mb-2">License Key Generator</h3>
-              <p className="text-gray-600">Automatically create and deliver license keys after payment.</p>
-            </div>
-            <div className="border rounded-xl p-6 shadow hover:shadow-lg transition">
-              <h3 className="text-xl font-semibold mb-2">Secure File Delivery</h3>
-              <p className="text-gray-600">Give customers access to digital downloads through protected links.</p>
-            </div>
-            <div className="border rounded-xl p-6 shadow hover:shadow-lg transition">
-              <h3 className="text-xl font-semibold mb-2">Admin Dashboard</h3>
-              <p className="text-gray-600">Monitor activity, manage users, and receive email alerts in real time.</p>
-            </div>
+              <p className="text-gray-600">Auto-generate license keys on purchase, track activation and expiration.</p>
+            </Link>
+            <Link to="/features/stripe-checkout" className="border rounded-xl p-6 shadow hover:shadow-lg transition block">
+              <h3 className="text-xl font-semibold mb-2">Stripe Checkout + IP Logging</h3>
+              <p className="text-gray-600">Seamless payment flow with built-in customer IP address tracking.</p>
+            </Link>
+            <Link to="/features/secure-downloads" className="border rounded-xl p-6 shadow hover:shadow-lg transition block">
+              <h3 className="text-xl font-semibold mb-2">Secure File Downloads</h3>
+              <p className="text-gray-600">Restrict access to paid files and ensure verified-only downloads.</p>
+            </Link>
+            <Link to="/features/admin-dashboard" className="border rounded-xl p-6 shadow hover:shadow-lg transition block">
+              <h3 className="text-xl font-semibold mb-2">Admin Dashboard + Email Alerts</h3>
+              <p className="text-gray-600">View license activity, logs, and get notified of purchases in real time.</p>
+            </Link>
           </div>
         </div>
       </section>
