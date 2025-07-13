@@ -1,8 +1,32 @@
-# Ignore system & browser folders
+# Dependency directories
+node_modules/
+build/
+.cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & editor specific
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Windows junk
 AppData/
 Application Data/
 Cookies/
 Documents/
-node_modules/
-.DS_Store
-*.log
+desktop.ini
+
+# Others
+coverage/
