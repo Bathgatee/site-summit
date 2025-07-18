@@ -52,6 +52,14 @@ export default function Platform() {
               <h3 className="text-xl font-semibold mb-2">Admin Dashboard + Email Alerts</h3>
               <p className="text-gray-600">View license activity, logs, and get notified of purchases in real time.</p>
             </Link>
+            <Link to="/platform-demo" className="border rounded-xl p-6 shadow hover:shadow-lg transition block text-center">
+              <img src="/assets/software-sales-thumbnail.png" alt="Software Platform" className="mb-4 w-full rounded" />
+              <h3 className="text-xl font-semibold mb-2">Software Sales Platform</h3>
+              <p className="text-gray-600">
+                Complete frontend + backend system to sell licensed programs, files, or tools.
+                Integrated with Stripe Checkout, license key generation, and secure downloads.
+              </p>
+            </Link>
           </div>
         </div>
       </section>
@@ -70,3 +78,4 @@ export default function Platform() {
     </>
   );
 }
+

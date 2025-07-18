@@ -1,12 +1,22 @@
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  useEffect(() => {
+    fetch("http://localhost:5000/api/log-ip", {
+      method: "POST",
+    });
+  }, []);
+
   return (
     <>
       <Helmet>
         <title>Site Summit | Modern Website Services</title>
-        <meta name="description" content="Get a professionally built, SEO-friendly website with Site Summit. Choose from Starter, Business, or Full Platform solutions." />
+        <meta
+          name="description"
+          content="Get a professionally built, SEO-friendly website with Site Summit. Choose from Starter, Business, or Full Platform solutions."
+        />
       </Helmet>
 
       {/* Hero Section */}
@@ -51,4 +61,3 @@ export default function Home() {
     </>
   );
 }
-
